@@ -234,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 555.50006, y: -159.67029}
-  m_SizeDelta: {x: -1111, y: -319.3406}
+  m_AnchoredPosition: {x: 555.50006, y: -397.47546}
+  m_SizeDelta: {x: -1111, y: -794.9509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56145935
 MonoBehaviour:
@@ -292,7 +292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &68134660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -385,8 +385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 811, y: 396}
+  m_AnchoredPosition: {x: -15.1333, y: 53.5986}
+  m_SizeDelta: {x: 1026.0916, y: 594.3763}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242619732
 MonoBehaviour:
@@ -463,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335.9, y: 49.8}
+  m_AnchoredPosition: {x: 401, y: 175}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295788421
@@ -671,8 +671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 603.25214, y: 157}
-  m_SizeDelta: {x: -1206.5042, y: -319.3406}
+  m_AnchoredPosition: {x: 603.25214, y: 371.91968}
+  m_SizeDelta: {x: -1206.5042, y: -749.1799}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393185987
 MonoBehaviour:
@@ -785,6 +785,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c91f32f72b90244588a5242de2a9b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &529451210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529451211}
+  - component: {fileID: 529451212}
+  m_Layer: 0
+  m_Name: TextTypingAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &529451211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529451210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 707036749}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &529451212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529451210}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 694ed7a4a2b2d9541b07363621183aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  briefingTextLength: 0
+  Panel: {fileID: 56145933}
+  AnimatableText: {fileID: 799138140}
+  AlertText: '[X] NEW ATTACK: FROM [BOSTON] TO [NYC]'
+  _animate: 1
 --- !u!4 &533234749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4306761885902856, guid: b2545609c1247ad41901a37ae5bd2802, type: 3}
@@ -829,6 +877,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1688169506}
+  - {fileID: 529451211}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -866,8 +915,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00046539, y: 10.305}
-  m_SizeDelta: {x: 204.5, y: 20.61}
+  m_AnchoredPosition: {x: 3.0008, y: 34.98}
+  m_SizeDelta: {x: 198.5, y: 21.127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778134720
 MonoBehaviour:
@@ -945,8 +994,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00016952, y: -3.86}
-  m_SizeDelta: {x: 300, y: 58.9401}
+  m_AnchoredPosition: {x: 0.000077963, y: -4.3124}
+  m_SizeDelta: {x: 288, y: 83.424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799138140
 MonoBehaviour:
@@ -1395,8 +1444,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00046539, y: -16.352}
-  m_SizeDelta: {x: 204.5, y: 31.314}
+  m_AnchoredPosition: {x: -0.00099874, y: 12.208}
+  m_SizeDelta: {x: 192.5, y: 24.417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020300041
 MonoBehaviour:
@@ -1487,7 +1536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5.000023}
+  m_AnchoredPosition: {x: 0, y: -5.0000305}
   m_SizeDelta: {x: 0, y: -9.999952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1076030626
@@ -1719,7 +1768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5.0000305}
+  m_AnchoredPosition: {x: 0, y: -5.000061}
   m_SizeDelta: {x: 0, y: -9.999952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371070704
@@ -1871,8 +1920,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -35.1693}
-  m_SizeDelta: {x: 0, y: -70.3384}
+  m_AnchoredPosition: {x: 0, y: -23.200012}
+  m_SizeDelta: {x: 0, y: -142.2827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651683944
 MonoBehaviour:
@@ -2116,8 +2165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 35}
-  m_SizeDelta: {x: 0, y: -70.3384}
+  m_AnchoredPosition: {x: 0, y: 69.999985}
+  m_SizeDelta: {x: 0, y: -140.00003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864090825
 MonoBehaviour:
